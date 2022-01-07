@@ -1,0 +1,76 @@
+:root {
+  /* Couleurs de la charte */
+  --color1: #fffff;
+  --color2: black;
+
+  /* Taille des titres */
+  --font-size: 1rem;
+  --fontsizeH1: 3rem;
+  --fontsizeH2: 2rem;
+  --fontsizeH3: 2rem;
+  --fontsizeH4: 2rem;
+
+  /* Couleurs des titres */
+  --colorH1: grey;
+  --colorH2: grey;
+  --colorH3: grey;
+  --colorH4: grey;
+}
+
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: var(--font-size);
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.hero {
+  padding: 12vh;
+}
+
+.hero div {
+  padding: 10px;
+}
+
+/* Variables */
+h1 {
+  font-size: var(--fontsizeH1);
+  color: var(--colorH1);
+}
+
+h2 {
+  font-size: var(--fontsizeH2);
+  color: var(--colorH2);
+}
+
+h3 {
+  font-size: var(--fontsizeH3);
+  color: var(--colorH3);
+}
+
+h4 h5 {
+  font-size: var(--fontsizeH4);
+  color: var(--colorH4);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* @media only screen and (max-width: 768px) { EN dessous de */
+/* @media only screen and (min-width: 768px) { AU dessus de */
